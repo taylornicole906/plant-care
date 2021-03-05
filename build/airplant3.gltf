@@ -1,0 +1,286 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.4.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                4,
+                5,
+                6
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Mesh_0"
+        },
+        {
+            "mesh" : 1,
+            "name" : "Mesh_1"
+        },
+        {
+            "children" : [
+                0,
+                1
+            ],
+            "name" : "airplant.stl.cleaner.materialmerger.gles"
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "RootNode (model correction matrix)"
+        },
+        {
+            "children" : [
+                3
+            ],
+            "name" : "RootNode (gltf orientation matrix)",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "scale" : [
+                1.640499472618103,
+                1.6641037464141846,
+                2.0646843910217285
+            ],
+            "translation" : [
+                -16.87506103515625,
+                68.18287658691406,
+                -8.075332641601562
+            ]
+        },
+        {
+            "name" : "Light",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "scale" : [
+                1.7608088254928589,
+                2.208665609359741,
+                2.1432223320007324
+            ],
+            "translation" : [
+                -10.187982559204102,
+                80.37248992919922,
+                -9.748512268066406
+            ]
+        },
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.483536034822464,
+                0.33687159419059753,
+                -0.20870360732078552,
+                0.7804827094078064
+            ],
+            "scale" : [
+                1.9973615407943726,
+                2.0713372230529785,
+                2.1131856441497803
+            ],
+            "translation" : [
+                -4.802803993225098,
+                78.42021942138672,
+                3.4499025344848633
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "Scene_-_Root",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.41090142726898193,
+                    0.41090142726898193,
+                    0.41090142726898193,
+                    1
+                ],
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.4863731265068054
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Mesh_1",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Scene_-_Root_baseColor",
+            "uri" : "Scene_-_Root_baseColor.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 65609,
+            "max" : [
+                38.86540222167969,
+                43.693336486816406,
+                35.0771598815918
+            ],
+            "min" : [
+                -43.401756286621094,
+                -43.66597366333008,
+                -20.050617218017578
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 65609,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 65609,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5125,
+            "count" : 346242,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 8827,
+            "max" : [
+                9.638903617858887,
+                30.739551544189453,
+                -1.6331957578659058
+            ],
+            "min" : [
+                -31.34727668762207,
+                -32.05316925048828,
+                -20.049213409423828
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 8827,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 8827,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 47106,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 787308,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 787308,
+            "byteOffset" : 787308
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 524872,
+            "byteOffset" : 1574616
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1384968,
+            "byteOffset" : 2099488
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 105924,
+            "byteOffset" : 3484456
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 105924,
+            "byteOffset" : 3590380
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 70616,
+            "byteOffset" : 3696304
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 94212,
+            "byteOffset" : 3766920
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9986
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 3861132,
+            "uri" : "airplant3.bin"
+        }
+    ]
+}
